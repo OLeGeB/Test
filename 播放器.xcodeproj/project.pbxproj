@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE289EAF1F9F73A400810D8D /* BORemoteAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EE289EAE1F9F73A400810D8D /* BORemoteAudioFile.m */; };
+		EE289EB21F9F7D3700810D8D /* BOAudioDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE289EB11F9F7D3700810D8D /* BOAudioDownLoader.m */; };
+		EE8FF8201F97A05C00FB331E /* BORemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8FF81F1F97A05C00FB331E /* BORemoteResourceLoaderDelegate.m */; };
+		EE8FF8231F97A2BB00FB331E /* NSURL+Steaming.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8FF8221F97A2BB00FB331E /* NSURL+Steaming.m */; };
 		EEF550761F8E5FF4005EFD43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF550751F8E5FF4005EFD43 /* main.m */; };
 		EEF550791F8E5FF4005EFD43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF550781F8E5FF4005EFD43 /* AppDelegate.m */; };
 		EEF5507C1F8E5FF4005EFD43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5507B1F8E5FF4005EFD43 /* ViewController.m */; };
@@ -15,6 +19,7 @@
 		EEF550841F8E5FF4005EFD43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF550821F8E5FF4005EFD43 /* LaunchScreen.storyboard */; };
 		EEF5508F1F8E5FF4005EFD43 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5508E1F8E5FF4005EFD43 /* ___Tests.m */; };
 		EEF5509A1F8E5FF4005EFD43 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF550991F8E5FF4005EFD43 /* ___UITests.m */; };
+		EEF550AA1F8E607D005EFD43 /* BORemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF550A91F8E607D005EFD43 /* BORemotePlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE289EAD1F9F73A400810D8D /* BORemoteAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BORemoteAudioFile.h; sourceTree = "<group>"; };
+		EE289EAE1F9F73A400810D8D /* BORemoteAudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BORemoteAudioFile.m; sourceTree = "<group>"; };
+		EE289EB01F9F7D3700810D8D /* BOAudioDownLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOAudioDownLoader.h; sourceTree = "<group>"; };
+		EE289EB11F9F7D3700810D8D /* BOAudioDownLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOAudioDownLoader.m; sourceTree = "<group>"; };
+		EE8FF81E1F97A05C00FB331E /* BORemoteResourceLoaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BORemoteResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		EE8FF81F1F97A05C00FB331E /* BORemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BORemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		EE8FF8211F97A2BB00FB331E /* NSURL+Steaming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+Steaming.h"; sourceTree = "<group>"; };
+		EE8FF8221F97A2BB00FB331E /* NSURL+Steaming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Steaming.m"; sourceTree = "<group>"; };
 		EEF550711F8E5FF4005EFD43 /* 播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF550751F8E5FF4005EFD43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEF550771F8E5FF4005EFD43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,8 @@
 		EEF550951F8E5FF4005EFD43 /* 播放器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "播放器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF550991F8E5FF4005EFD43 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		EEF5509B1F8E5FF4005EFD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF550A81F8E607D005EFD43 /* BORemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BORemotePlayer.h; sourceTree = "<group>"; };
+		EEF550A91F8E607D005EFD43 /* BORemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BORemotePlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		EEF550731F8E5FF4005EFD43 /* 播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				EEF550A71F8E605D005EFD43 /* Class */,
 				EEF550771F8E5FF4005EFD43 /* AppDelegate.h */,
 				EEF550781F8E5FF4005EFD43 /* AppDelegate.m */,
 				EEF5507A1F8E5FF4005EFD43 /* ViewController.h */,
@@ -138,6 +154,23 @@
 				EEF5509B1F8E5FF4005EFD43 /* Info.plist */,
 			);
 			path = "播放器UITests";
+			sourceTree = "<group>";
+		};
+		EEF550A71F8E605D005EFD43 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EEF550A81F8E607D005EFD43 /* BORemotePlayer.h */,
+				EEF550A91F8E607D005EFD43 /* BORemotePlayer.m */,
+				EE8FF81E1F97A05C00FB331E /* BORemoteResourceLoaderDelegate.h */,
+				EE8FF81F1F97A05C00FB331E /* BORemoteResourceLoaderDelegate.m */,
+				EE289EAD1F9F73A400810D8D /* BORemoteAudioFile.h */,
+				EE289EAE1F9F73A400810D8D /* BORemoteAudioFile.m */,
+				EE289EB01F9F7D3700810D8D /* BOAudioDownLoader.h */,
+				EE289EB11F9F7D3700810D8D /* BOAudioDownLoader.m */,
+				EE8FF8211F97A2BB00FB331E /* NSURL+Steaming.h */,
+				EE8FF8221F97A2BB00FB331E /* NSURL+Steaming.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE289EB21F9F7D3700810D8D /* BOAudioDownLoader.m in Sources */,
+				EE8FF8231F97A2BB00FB331E /* NSURL+Steaming.m in Sources */,
 				EEF5507C1F8E5FF4005EFD43 /* ViewController.m in Sources */,
+				EE8FF8201F97A05C00FB331E /* BORemoteResourceLoaderDelegate.m in Sources */,
+				EE289EAF1F9F73A400810D8D /* BORemoteAudioFile.m in Sources */,
+				EEF550AA1F8E607D005EFD43 /* BORemotePlayer.m in Sources */,
 				EEF550791F8E5FF4005EFD43 /* AppDelegate.m in Sources */,
 				EEF550761F8E5FF4005EFD43 /* main.m in Sources */,
 			);
@@ -518,6 +556,7 @@
 				EEF550A01F8E5FF4005EFD43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEF550A11F8E5FF4005EFD43 /* Build configuration list for PBXNativeTarget "播放器Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +565,7 @@
 				EEF550A31F8E5FF4005EFD43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEF550A41F8E5FF4005EFD43 /* Build configuration list for PBXNativeTarget "播放器UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +574,7 @@
 				EEF550A61F8E5FF4005EFD43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
